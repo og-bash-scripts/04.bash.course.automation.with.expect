@@ -1,1 +1,21 @@
-
+#entered in cli, requirements csh
+sudo apt-get install csh
+whoami
+echo $SHELL
+whereis chs
+chsh -s /bin/csh
+csh
+exit
+csh
+echo $HOME
+echo $home
+echo $USER
+echo $user
+echo $? #works in bash not in csh
+echo $status
+read -p "Enter name:" namevar
+set namevar=$<
+Tammy
+echo $namevar
+echo $NAMEVAR
+setenv #add to built in variables
