@@ -1,0 +1,14 @@
+#entered in cli, require ksh installed
+useradd user10 -m
+passwd user10
+whereis ksh
+sudo chsh -s /usr/bin/ksh
+su - user10
+chsh
+sudo chsh
+exit
+sudo usermod --shell /usr/bin/ksh user10
+sudo usermod --shell /usr/bin/ksh user10
+sudo tail /etc/passwd
+su - user10
+echo $SHELL
