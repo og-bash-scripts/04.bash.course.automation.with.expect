@@ -1,1 +1,7 @@
+#entered in cli requires ksh
 
+sudo apt-get install ksh
+whereis ksh
+	/usr/binksh
+echo $SHELL
+chsh -s /usr/bin/ksh
