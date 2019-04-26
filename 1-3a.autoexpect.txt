@@ -1,1 +1,6 @@
+#entered at cli
+autoexpect ./exect.sh
+vi script.exp
+match_max 100000 #10 sec defualt, -1 is unlimited
+
 
